@@ -1,0 +1,44 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+.blogbox {
+	width: 800px;
+	margin: 60px auto;
+	padding: 60px;
+	background: black;
+	background-color :rgba(0,0,0,0.6);
+	border-radius: 40px;
+}
+
+body {
+	background: url('rubyone.jpg');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.blogtitle {
+	font-family: 'Pacifico', cursive;
+	font-size: 80px;
+	color: #A30313;
+	text-align: center;
+}
+
+h2 {
+	color: #257333;
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+	font-weight: 400;
+}
+
+p {
+	color: white;
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+	font-weight: 300;
+}
+
+.info {
+	font-family: 'Pacifico', cursive;
+	font-size: 25px;
+	color: #A30313;
+	text-decoration: none;
+	text-align: right;
+}
