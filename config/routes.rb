@@ -2,6 +2,10 @@ Rubbletorubyblog::Application.routes.draw do
 
   root 'blogposts#index'
 
+  resources :about
+
+  get 'info', :to =>'blogposts#info'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
